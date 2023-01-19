@@ -1,0 +1,39 @@
+body { 
+	font: 0.8125em Verdana, sans-serif; 
+	color: #333; 
+	background: #FFF;
+    background-image:url(fond-papier.png);
+    background-repeat:repeat-y;
+	text-align: center; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	width: 750px 
+}
+hr {
+	border:0;
+	color: silver;
+	background-color: silver;
+	height: 1px;
+}
+#bookmarklet a { text-align: center;
+	cursor:move;
+}
+#text p { 
+	text-align: left; 
+	padding-left : 20px;
+}
+#copyright {
+	position: absolute;
+	bottom: 10px;
+	right: 50px;
+	color: grey;
+}
+.marked { 
+	background-color: yellow;
+}
+.featured {
+	background-color: blue;
+	color: white;
+	padding: 0px 5px 3px 5px;
+}

@@ -1,0 +1,1 @@
+create table marks (id varchar(50), creationDate datetime, pageUrl varchar(255),text varchar(256), owner varchar(50), bookmarklet varchar(50), startNodePath varchar(128), startOffset integer, endNodePath varchar(128), endOffset integer, number INT UNSIGNED NOT NULL AUTO_INCREMENT, INDEX(number));
